@@ -3,10 +3,13 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: poppins;
+    background-color: white;
 }
 .container{
     margin: 0 30px;
     height: 800px;
+    display: flex;
+    
 }
 .left-section{
     width: 22%;
@@ -19,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .dashboard-logo{
     width: 50px;
@@ -33,4 +36,278 @@ body{
     font-weight: 500;
     font-size: 1.6rem;
     color: white;
+}
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+}
+.icons-container div div{
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+.icons-container div div div{
+    
+    width: 25px;
+    height: 25px;
+}
+.icons-container div div p{
+    margin: 0;
+    margin-left: 15px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.icons-container div img{
+    width: 100%;
+}
+.second-icon-container{
+    margin-top: 50px;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    height: 100%;
+}
+.top-div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 23%;
+    align-items: center;
+}
+.top-higher{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70px;
+    width: 100%;
+}
+.search-and-input{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.search-and-input div{
+    width: 23px;
+    height: 23px;
+    
+}
+.search-and-input div img{
+    width: 100%;
+}
+.search-and-input input{
+    width: 530px;
+    height: 25px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.notifies{
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    margin-top: 15px;
+}
+.notifies div{
+    width: 23px;
+    height: 23px;
+}
+.notifies p{
+    margin: 0;
+}
+.notifies .logo{
+    width: 40px;
+    height: 40px;
+    margin: 0 30px;
+}
+.notifies .logo img{
+    border-radius: 50px;
+}
+.notifies div img{
+    width: 100%;
+}
+.notifies p{
+    font-weight: 600;
+}
+.top-lower{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px 30px;
+}
+.profile-container{
+    display: flex;
+    text-align: center;
+}
+.profile-container .profile{
+    width: 50px;
+    height: 50px;
+}
+.profile-container .profile img{
+    width: 100%;
+    border-radius: 50px;
+}
+.profile-container .informations{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.profile-container .informations .text-sm p{
+    margin: 0 ;
+    width: 55px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.profile-container .informations .text-lg p{
+    margin: 0; 
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.top-lower .navigation ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.top-lower .navigation ul a{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: rgb(51, 123, 255);
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
+.buttom-div-container{
+    padding: 0 30px;
+    background-color: rgb(241, 241, 241);
+    height: 600px;
+}
+
+.headings{
+    display: flex;
+    align-items: center;
+
+}
+.announcment-heading{
+    margin-left: 480px;
+}
+
+.buttom-div-container .heading{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.buttom-div{
+    display: flex;
+    
+}
+.buttom-left-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 500px;
+}
+.buttom-left-section .projects{
+    background-color: rgb(255, 255, 255);
+    border-left: 7px solid rgb(255, 186, 107);
+    border-radius: 8px;
+    height: 170px;
+    width: 290px;
+}
+.buttom-left-section .projects .projects-text{
+    margin: 20px 10px;
+}
+.buttom-left-section .projects .projects-text h4{
+    margin: 0;
+    
+}
+.buttom-left-section .projects .projects-text p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgb(119, 122, 124);
+    font-weight: 500;
+}
+.buttom-left-section .projects .clickables ul{
+    display: flex;
+    margin:0;
+    padding: 0;
+    justify-content: end;
+}
+.buttom-left-section .projects .clickables ul li{
+    list-style: none;
+    width: 23px;
+    height: 23px;
+    margin: 0 10px;
+
+}
+.buttom-left-section .projects .projects-text ul li img{
+    width: 100%;
+}
+.buttom-right-section{
+    margin: 0;
+    
+}
+.announcment-container{
+    margin: 0 20px;
+    background-color: white;
+    height: 270px;
+    border-radius: 8px;
+}
+.announcment-container div{
+    padding: 5px 10px 10px 10px;
+    
+}
+.announcment-container div h4{
+    margin: 0;
+    font-size: 0.9rem;
+    
+}
+.announcment-container div p{
+    margin:0;
+    font-size: 0.7rem;
+
+}
+.trending-heading{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.trending-container{
+    margin: 0 20px;
+}
+.trending-accounts-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.trending-accounts-container div{
+    display: flex;
+    padding: 3px 0;
+    align-items: center;
+}
+.trending-accounts-container div .trending-profiles{
+    width: 30px;
+    height: 30px;
+    
+}
+.trending-accounts-container div div img{
+    width: 100%;
+    border-radius: 50%;
+}
+.trending-accounts-container div .trending-texts{
+    display: flex;
+    flex-direction: column;
+}
+.trending-accounts-container div .trending-texts h4{
+    margin: 0;
+    
+}
+.trending-accounts-container div .trending-texts p{
+    margin: 0;
+    font-size: 0.7rem;
+    width: 150px;
 }
