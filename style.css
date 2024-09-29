@@ -182,7 +182,7 @@ body{
 
 .buttom-div-container{
     padding: 0 30px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(238, 233, 233);
     height: 600px;
 }
 
@@ -278,6 +278,8 @@ body{
 }
 .trending-container{
     margin: 0 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 .trending-accounts-container{
     display: flex;
@@ -288,6 +290,7 @@ body{
     display: flex;
     padding: 3px 0;
     align-items: center;
+    margin-left: 10px;
 }
 .trending-accounts-container div .trending-profiles{
     width: 30px;
@@ -301,6 +304,8 @@ body{
 .trending-accounts-container div .trending-texts{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
 }
 .trending-accounts-container div .trending-texts h4{
     margin: 0;
